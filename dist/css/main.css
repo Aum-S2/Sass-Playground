@@ -1,2 +1,9 @@
+* {
+  padding: 0;
+  margin: 0; }
+
 body {
-  background: orange; }
+  background: orange;
+  color: #333;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  line-height: 1.55; }
