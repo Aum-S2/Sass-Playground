@@ -3,7 +3,30 @@
   margin: 0; }
 
 body {
-  background: orange;
+  background: #fa7900;
   color: #333;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   line-height: 1.55; }
+
+header {
+  background: #333;
+  color: #f0f0f1;
+  padding: 1rem; }
+  header h1 {
+    text-align: center; }
+
+.section {
+  padding: 3.2rem; }
+  .section h3 {
+    font-size: 2.2rem; }
+  .section-a {
+    background: #fa7900;
+    color: #fff; }
+  .section-b {
+    background: orange;
+    color: #fff; }
+
+a {
+  color: #333; }
+  a:hover {
+    color: firebrick; }
