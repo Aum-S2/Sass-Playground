@@ -39,10 +39,21 @@ header {
   }
 }
 
-a {
-  color: #333;
+%btn-shared {
+  display: inline-block;
+  padding: 0.7rem 2rem;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 1rem;
+}
 
-  &:hover {
-    color: firebrick;
+.btn {
+  &-light {
+    @extend %btn-shared;
+  }
+
+  &-dark {
+    @extend %btn-shared;
   }
 }

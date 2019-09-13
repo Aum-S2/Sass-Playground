@@ -26,7 +26,10 @@ header {
     background: orange;
     color: #fff; }
 
-a {
-  color: #333; }
-  a:hover {
-    color: firebrick; }
+.btn-light, .btn-dark {
+  display: inline-block;
+  padding: 0.7rem 2rem;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 1rem; }
