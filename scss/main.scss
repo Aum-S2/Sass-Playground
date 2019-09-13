@@ -51,9 +51,13 @@ header {
 .btn {
   &-light {
     @extend %btn-shared;
+    background-color: $light-color;
+    color: #333;
   }
 
   &-dark {
     @extend %btn-shared;
+    background-color: $dark-color;
+    color: #fff;
   }
 }
