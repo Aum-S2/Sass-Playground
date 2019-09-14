@@ -37,7 +37,17 @@ header {
 .btn-light {
   background-color: #f0f0f1;
   color: #000; }
+  .btn-light:hover {
+    --wekit-transform: $property;
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
+    background-color: #e3e3e5; }
 
 .btn-dark {
   background-color: #333;
   color: #fff; }
+  .btn-dark:hover {
+    --wekit-transform: $property;
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+    background-color: #404040; }

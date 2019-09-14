@@ -1,4 +1,5 @@
 // set text color 
+
 @function set-text-color($color) {
   @if(lightness($color) > 50) {
     @return #000;
@@ -6,3 +7,11 @@
     @return #fff;
   }
 }
+
+// transform mixin
+
+@mixin transform($property) {
+  --wekit-transform: $property;
+  -ms-transform: $property;
+ transform: $property;
+} 
