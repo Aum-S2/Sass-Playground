@@ -10,7 +10,7 @@ body {
 
 header {
   background: #333;
-  color: #f0f0f1;
+  color: #fff;
   padding: 1rem; }
   header h1 {
     text-align: center; }
@@ -23,8 +23,8 @@ header {
     background: #fa7900;
     color: #fff; }
   .section-b {
-    background: orange;
-    color: #fff; }
+    background: #ffc423;
+    color: #000; }
 
 .btn-light, .btn-dark {
   display: inline-block;
@@ -36,7 +36,7 @@ header {
 
 .btn-light {
   background-color: #f0f0f1;
-  color: #333; }
+  color: #000; }
 
 .btn-dark {
   background-color: #333;
